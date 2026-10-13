@@ -1,0 +1,121 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color:#f5f0ff;
+    padding: 40px 0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #5920b4;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+    margin: 0 0 24px 0;
+    font-size: 1.8rem;
+}
+
+.form-container {
+    width: 100%;
+    max-width: 470px;
+    margin: 0 auto;
+    padding: 33px ;
+    box-sizing: border-box;
+    background-color:white;
+    border: 2px solid #6d28d9;
+    border-radius: 13px;
+    box-shadow: 0 8px 24px rgba(109, 40, 217, 0.18);
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+label,
+.group-title {
+    font-size: 0.9rem;
+    font-weight: 545;
+    color:#3b0764;
+}
+
+.form-group > label,
+.group-title {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"], 
+input[type="email"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+input[type="text"], 
+input[type="email"],
+select {
+    padding: 10px 12px;
+    border: 2px solid #c4b0f5;
+    border-radius: 4px;
+    background-color: white;
+    color:#3b0764;
+}
+
+input[type="email"] {
+    background-color:#faf7ff;
+}
+
+button {
+    padding: 12px;
+    width: 100%;
+    background-color:#7c3aed;
+    color: white;
+    border: 2px solid #7c3aed;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.radio option {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.radio-option input[type="radio"] {
+    margin: 0;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin: 0;
+    color: #7c3aed;
+}
+
+input:focus,
+select:focus {
+    border-color: #7c3aed;
+    outline: 2px solid rgba(139, 92, 246, 0.35);
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #5b21b6;
+    cursor: pointer;
+    border-radius: 6px;
+}
